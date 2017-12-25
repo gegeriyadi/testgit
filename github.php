@@ -1,2 +1,2 @@
-<?php $output = shell_exec('ls -l');
+<?php $output = shell_exec('git pull');
 echo $output;
